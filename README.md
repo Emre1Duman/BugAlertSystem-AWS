@@ -12,7 +12,12 @@ Two applications within the project:
   - Utilizes a scheduler to regularly check SQS for bugs.
   - Removes bugs from the queue.
   - Routes bugs to either Slack or Trello based on their priority via WebHooks.
- 
+
+
+
+<img src="https://github.com/Emre1Duman/BugAlertSystem-AWS/blob/main/Diagrams/Before%20Docker.png" width="700" height="600"/>
+<img src="https://github.com/Emre1Duman/BugAlertSystem-AWS/blob/main/Diagrams/Before%20Docker.png" width="700" height="600"/>
+
 ### AWS & Docker:
 
 Originally, both Python applications were running on localhost, but recognizing the need for online hosting, I opted for a solution involving Docker and AWS.
