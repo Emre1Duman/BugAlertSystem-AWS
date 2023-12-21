@@ -16,7 +16,7 @@ Two applications within the project:
 
 
 <img src="https://github.com/Emre1Duman/BugAlertSystem-AWS/blob/main/Diagrams/Before%20Docker.png" width="700" height="600"/>
-<img src="https://github.com/Emre1Duman/BugAlertSystem-AWS/blob/main/Diagrams/Before%20Docker.png" width="700" height="600"/>
+<img src="https://github.com/Emre1Duman/BugAlertSystem-AWS/blob/main/Diagrams/After%20Docker.png" width="900" height="900"/>
 
 ### AWS & Docker:
 
