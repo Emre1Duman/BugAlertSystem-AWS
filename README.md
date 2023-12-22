@@ -30,4 +30,4 @@ Originally, both Python applications were running on localhost, but recognizing 
   - Subsequently, Elastic Container Service (ECS) was employed to deploy these containers onto EC2 instances.
 
 
-<img src="https://github.com/Emre1Duman/BugAlertSystem-AWS/blob/main/Diagrams/After%20Docker.png" width="900" height="900"/>
+<img src="https://github.com/Emre1Duman/BugAlertSystem-AWS/blob/main/Diagrams/After%20Docker%26Cloud2.0.png" width="800" height="680"/>
