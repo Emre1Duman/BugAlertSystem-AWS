@@ -27,7 +27,7 @@ Originally, both Python applications were running on localhost, but recognizing 
   - It included specifications for the latest Python version, commands to execute the pre-defined requirements file, and the initiation command for the application.
   - Since I utilized two Python applications for this project, both were containerized separately.
 - The containers were then hosted on Elastic Container Registry (ECR).
-  - Subsequently, Elastic Container Service (ECS) was employed to deploy these containers onto EC2 instances
+  - Subsequently, Elastic Container Service (ECS) was employed to deploy these containers onto EC2 instances.
 
 
 <img src="https://github.com/Emre1Duman/BugAlertSystem-AWS/blob/main/Diagrams/After%20Docker%26Cloud2.0.png" width="800" height="680"/>
