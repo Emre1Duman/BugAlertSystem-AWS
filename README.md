@@ -1,6 +1,9 @@
 ## Python Bug Alert System with AWS integration
 ### Project Summary:
 
+- Designed and developed a distributed system that sends bug alerts to Slack or Trello via webhooks using Python APIs and AWS.
+- Postman was utilised to input dummy bugs, which were then retrieved with an HTML request through a Python API and sent to an AWS Simple Queue Service (SQS).
+
 
 Two applications within the project:
 
@@ -9,7 +12,7 @@ Two applications within the project:
   - Sends received bugs to AWS Queuing Service (SQS).
 
 - Functionality of Application 2 (SendingBugs Dir):
-  - Utilizes a scheduler to regularly check SQS for bugs.
+  - Utilises a scheduler to regularly check SQS for bugs.
   - Removes bugs from the queue.
   - Routes bugs to either Slack or Trello based on their priority via WebHooks.
 
@@ -19,7 +22,7 @@ Two applications within the project:
 
 ### AWS & Docker:
 
-Originally, both Python applications were running on localhost, but recognizing the need for online hosting, I opted for a solution involving Docker and AWS.
+Originally, both Python applications were running on localhost, but recognising the need for online hosting, I opted for a solution involving Docker and AWS.
 
 - Following thorough research, AWS emerged as the optimal choice, providing tailored services such as ECR, ECS, and EC2.
   - Given the project's use of SQS, sticking to the AWS ecosystem made sense.
